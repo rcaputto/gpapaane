@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0
+}
+
+a{
+    color: #222222;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:10px;
+    text-decoration:none;
+}
+
+    a:hover{
+        text-decoration: underline #329672;
+    }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.logo{
+    
+    max-height: 110px;
+    max-width: 110px;
+    object-fit: cover;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: index 3;
+    top: 1px;
+    background: rgb(0,22,36);
+    background: linear-gradient(90deg, rgba(0,22,36,1) 0%, rgba(123,241,194,1) 25%, rgba(17,31,0,1) 99%);
+    opacity: 0.8; 
+    color: var(--text-input-field);
+}
+
+
+
+#menu-desktop{
+    display:none
+}
+
+#menu-mobile{
+    display:flex;
+    width: auto;
+}
+
+#menu-mobile a{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-left: 26px;
+}
+
+.instagram p, .facebook p, .Pinterest p, .wattsapp p{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 6px;
+}
+
+.credit{
+    background-color: rgb(227, 225, 225);
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.credit p{
+    font-size: 14px;
+}
+
+@media(min-width:576px){
+    #menu-desktop{
+        display:flex
+    }
+    
+    #menu-mobile{
+        display:none
+    }
+    .logo{
+        max-height: 105px;
+        max-width: 130px;
+        object-fit: cover;
+        margin-top: 4px;
+    }
+    nav {
+        text-decoration: none;
+        color: var(--text-input-field);
+        
+        
+    }
+
+    #menu-desktop a{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin-left: 26px;
+    }
+    
+
+}
+
+/* BURGUER */
+
+#burguer{
+    min-width: 20px;
+    min-height:15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#burguer span{
+    border-radius: 5px;
+    background-color: #222;
+    width: 100%;
+    height: 2px;
+    transition: all 300ms ease-out;
+}
+
+/* active */
+
+.active1{
+    opacity:0;
+    width: 0;
+}
+
+.active2{
+    transform: translateY(2.5px) rotate(45deg);
+    
+}
+
+.active3{
+    transform: translateY(-2px) rotate(-45deg);
+    
+}
+
+#mobile{
+   
+    
+    background-color: white;
+    width: 100vw;
+    height: 0px;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    transition: all 250ms ease-out;
+}
+.open{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    margin-left: 45%;
+    background: rgb(0,22,36);
+    background: linear-gradient(90deg, rgba(0,22,36,1) 0%, rgba(123,241,194,1) 25%, rgba(17,31,0,1) 99%);
+    opacity: 0.9; 
+    
+    
+    
+}
+.hidden{
+    display: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+    
+    
+   
+    
+    
+       
+}
+  

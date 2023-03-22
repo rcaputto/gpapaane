@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px
+}
+
+
+
+
+
+
+
+/* HEADER AND NAVBAR*/
+
+/* header{
+    margin-top: 10px;
+}
+.name_author{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.name_author :nth-child(1)  {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.name_author :nth-child(2)  {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    align-self: center;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--dark);
+}
+
+nav{
+    display: block;
+    margin-right: 105px;
+    
+}
+nav .nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    padding: 12px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--dark);
+    font-family: 'Quicksand', sans-serif;
+    font-weight:lighter;
+    font-size: 18px;
+    padding: 12px;    
+}
+
+nav a:hover{
+    color:var(--hospital-green);
+    border: 1px solid var(--hospital-green);
+    border-radius: 10px;
+    
+} */
+
+#menu-desktop{
+    display: none;
+}
+
+#menu-mobile{
+    display: flex;
+    width: auto;
+}
+
+@media  (min-with: 576px){
+
+#menu-desktop{
+    display: flex;
+}
+
+#menu-mobile{
+    display: none;
+}
+
+}
+
+#burguer{
+    min-width:20px;
+    min-height:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    cursor:pointer;
+}
+
+#burges span{
+    border-radius: 5px;
+    background-color: #222;
+    width: 100%;
+    height:2px;
+    transition:all 300ms ease-out;
+}
+
+#burguer.active .line1{
+    opacity:0;
+    width:0
+
+}
+#burguer.active .line2{
+
+    transform: translateY(2.5px) rotate(45deg)
+}
+#burguer.active .line3{
+    transform: translateY(-2px) rotate(-45deg)
+    
+}
