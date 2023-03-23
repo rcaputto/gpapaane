@@ -83,14 +83,15 @@ body{
     line-height: 2.5rem ;
     font-weight: lighter;
     font-size:20px;
+    text-align: center;
     
     
 }
 
 #copy h4{
     font-weight: lighter;
-    font-size:18px;
-    line-height: 1.5rem;
+    font-size:20px;
+    line-height: 2.5rem;
 }
 
 .destacado{
@@ -134,7 +135,7 @@ div.box{
 
 #au-secondCopy{
     width: 75%;
-    
+    margin-top: 2rem;
     margin-bottom: 2rem;
     
     object-fit: cover;
@@ -206,6 +207,7 @@ div.blackWhitePictures{
 .instagram, .Pinterest, .facebook, .wattsapp{
     display: flex;
     align-items: center;
+    margin:12px;
     
 }
 
@@ -228,6 +230,8 @@ footer{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
     text-align: center;
+    margin-left: 32px;
+    margin-top: 12px;
 }
 
 
@@ -358,13 +362,15 @@ footer{
         line-height: 2.5rem ;
         font-weight: lighter;
         font-size:28px;
+        text-align: center;
         
         
     }
     
     #copy h4{
         font-weight: lighter;
-        font-size:22px
+        font-size:28px;
+        text-align: center;
     }
 
     #secondCopy-backgroundImage{
@@ -425,7 +431,7 @@ footer{
     }
 
     .facebook img{
-        width: 35px;
+        width: 21px;
     }
 
     
@@ -445,6 +451,7 @@ footer{
         justify-content: center;
         padding: 12px;
         margin-bottom: 12px;
+        margin-top: 12px;
         font-weight: lighter;
     }
 

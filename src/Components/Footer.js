@@ -1,6 +1,6 @@
 import React from "react";
 import Image1 from "../public/images/logoInstagram.png"
-import Image2 from "../public/images/logoFacebook.jpg"
+import Image2 from "../public/images/facebook.png"
 import Image3 from "../public/images/pinterest.png"
 import Image4 from "../public/images/whatsapp.png"
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ function Footer() {
     <>
       <footer>
 
-        <h3 id="socialContact">Redes Sociales</h3>
+        <h3 id="socialContact">Redes Sociales - Contacto</h3>
 
 
         <div id='redes'>
@@ -21,7 +21,7 @@ function Footer() {
           </div>
 
           <div className="facebook">
-            <img src={Image2} alt="" /><Link to='https://www.facebook.com/gustavo.daniel.39/?locale=es_LA'>  <p>Facebook</p></Link>
+            <img src={Image2} alt="" /><Link to='https://www.facebook.com/profile.php?id=100089247594767'>  <p>Facebook</p></Link>
           </div>
 
 

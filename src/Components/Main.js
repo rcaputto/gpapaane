@@ -1,10 +1,9 @@
 import React from "react";
 import Image1 from '../public/images/author.jpg';
 import Image2 from '../public/images/verde.jpg';
-import Image3 from '../public/images/pexels-steve-johnson-1234853.jpg';
 import Image4 from '../public/images/au.jpg';
 import Image5 from '../public/images/autor.jpg';
-import Image6 from '../public/images/20221212_172802_053118-01.jpeg';
+
 
 
 function Main (){
@@ -61,7 +60,7 @@ function Main (){
                     
                     <img id="au-secondCopy" src={Image4} alt=""/>
                     <img id="au-secondCopy2" src={Image5} alt=""/>
-                    <img id="au-secondCop3" src={Image6} alt=""/>
+                    
                 
                 </article>
             </div>
