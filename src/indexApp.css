@@ -74,7 +74,7 @@ body{
 #copy{
     top: 25rem;
     text-align: center;
-    padding: 24px;
+    
     
     
 }
@@ -84,6 +84,7 @@ body{
     font-weight: lighter;
     font-size:20px;
     text-align: center;
+    padding: 12px;
     
     
 }
@@ -345,7 +346,7 @@ footer{
         width: 40rem;
         height: 85vh;
         position: absolute;
-        top: 50rem;
+        top: 45rem;
         
         object-fit: cover;
     }
@@ -353,7 +354,7 @@ footer{
     .deco{
         width: 35rem;
         position: absolute;
-        top: 50rem;
+        top: 45rem;
         right: 5rem;
         object-fit: cover;
     }
