@@ -35,7 +35,7 @@ function Footer() {
         </div>
         <div className="credit">
           <h5>Desarrollado por </h5>
-          <Link to='https://www.instagram.com/rodocaputto/'><p>@rodocaputto</p></Link>
+          <Link to='https://www.instagram.com/rgcaputto/'><p>@rgcaputto</p></Link>
         </div>
 
 
